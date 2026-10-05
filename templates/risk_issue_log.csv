@@ -1,0 +1,4 @@
+item_id,type,description,impact,likelihood,severity,owner,mitigation,due_date,status,evidence_or_decision
+RSK-001,Risk,"Personal or tax data could be exposed through catalog metadata or an unapproved AI endpoint",High,To assess,To assess,Security owner,"Approve scan scope and metadata exposure; prohibit taxpayer data in unapproved AI tools; use synthetic test data",Not set,Open,To be assessed in real environment
+RSK-002,Risk,"Users may treat AI suggestions as authoritative tax conclusions",High,To assess,To assess,Service owner,"Bound intended use; meaningful human review; staff training; notices; audit and stop triggers",Not set,Open,ai-assurance.md
+ISS-001,Issue,"Purview tenant, roles, SKU and connector availability not available for this portfolio build",Delivery delay,Confirmed,Medium,Project lead,"Use implementation pack; validate with authorised non-production tenant owner",Not set,Open,No tenant sign-in session was available during preparation

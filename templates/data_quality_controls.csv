@@ -1,0 +1,4 @@
+control_id,asset_id,dimension,rule_description,measurement_method,numerator,denominator,threshold,frequency,latest_result,run_timestamp,issue_reference,rule_owner,remediation_owner,status
+DQ-001,EX-001,Uniqueness,"Return reference unique within approved scope",Source/ETL quality check,"Count of duplicate keys",Records checked,To agree,Per load,Not run,Not run,Not created,Data owner,Engineering owner,Illustrative
+DQ-002,EX-001,Validity,"Tax period conforms to approved period format and range",Source/ETL quality check,"Records passing approved format/range",Records checked,To agree,Per load,Not run,Not run,Not created,Tax policy owner,Engineering owner,Illustrative
+DQ-003,EX-002,Reconciliation,"Curated return count reconciles to approved source count after documented exclusions",Reconciliation query/report,"Count reconciled",Expected source count,To agree,Per refresh,Not run,Not run,Not created,Data owner,Analytics owner,Illustrative

@@ -1,0 +1,2 @@
+decision_id,date,decision_or_question,options_considered,decision,decision_owner,consulted_roles,evidence_reference,assumptions,review_trigger,status
+DEC-001,Not set,"May proposed triage AI determine liability or enforcement selection?","Allow; limit to staff assistance; reject","Limit to staff assistance in this fictional design; no case decision authority",Unassigned,"Service owner; DPO/privacy; security; tax policy; model owner",ai-assurance.md,"Fictional case; actual policy and law require review",Any purpose/workflow change,Proposed
